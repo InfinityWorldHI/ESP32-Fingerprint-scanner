@@ -36,7 +36,7 @@ const char *ssid = "SSID";
 const char *password = "Password";
 //************************************************************************
 String getData, Link;
-String URL = "http://website-domain/biometricattendance/getdata.php"; //computer IP or the server domain
+String URL = "http://website-domain/biometricattendance/getdataesp32.php"; //computer IP or the server domain
 //************************************************************************
 int FingerID = 0;                                  // The Fingerprint ID from the scanner 
 uint8_t id;
